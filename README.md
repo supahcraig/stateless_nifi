@@ -22,7 +22,6 @@ For the sink connector, similar steps to the source connector, most notably clic
 * `parameter.pcontext:bucket_folder` ==> the subfolder within your bucket, of the form `/folder/structure/`
 * `parameter.pcontext:cdp_username` ==> your CDP workload username
 * `parameter.pcontext:cdp_password` ==> your CDP workload password
-* `parameter.pcontext:kafka_brokers` ==> comma separated list of kafka brokers, be sure to include 9093 for the port
 * `input.port` ==> should be the name of the input port.  `receive_kafka` if you're using the flow def found in this repo
 * `topics` ==> should match the topic name your source connector is publishing to
 
